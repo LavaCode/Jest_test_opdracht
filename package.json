@@ -1,0 +1,19 @@
+{
+  "name": "verwerkingsopdracht",
+  "version": "1.0.0",
+  "description": "Dit is de verwerkingsopdracht van Kasper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "[\"opdracht\"",
+    "\"huiswerk\"",
+    "\"kasper\""
+  ],
+  "author": "Kasper Zegel",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
