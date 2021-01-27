@@ -1,3 +1,9 @@
+//exports
+module.exports = {
+    retirementCalculator : retirementCalculator,
+    basicCalculator : basicCalculator,
+};
+
 function retirementCalculator(age) {
     if(!Number.isInteger(age)){
         return "age is commonly written in numbers. Try again";
@@ -40,16 +46,4 @@ function basicCalculator(stringValue1, stringValue2, stringValue3) {
         return "Please correct value 2 to a basic operator (+, -, / or *)";
     }
 }
-
-//exports
-module.exports = {
-    retirementCalculator : retirementCalculator,
-    basicCalculator : basicCalculator,
-};
-
-
-let a;
-console.log(retirementCalculator(a));
-// console.log("---------------------------");
-// console.log("The result of your calculation is : " + basicCalculator("a", "+", 3));
 

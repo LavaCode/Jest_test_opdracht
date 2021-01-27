@@ -4,7 +4,6 @@
 const { retirementCalculator, basicCalculator } = require("./index");
 
 //// RETIREMENT CALCULATOR TESTS
-
 test('Geeft retirementCalculator een correcte waarde terug?', function () {
     const age = 30;
 
@@ -33,7 +32,6 @@ test('Geeft retirementCalculator een melding terug als je al met pensioen zou mo
     expect(result).toBe("You should be retired already!");
 });
 
-//TEST WERKT NOG NIET GOED!
 test('Geeft retirementCalculator een melding terug als je een verkeerde waarde meegeeft?', function () {
     let a;
     const age = a;
