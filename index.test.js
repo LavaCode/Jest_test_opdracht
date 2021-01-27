@@ -20,7 +20,7 @@ test('Geeft retirementCalculator een foutmelding terug bij negatieve age?', func
 });
 
 test('Geeft retirementCalculator een foutmelding terug bij te hoge age?', function () {
-    const age = 250; //age should be above 150
+    const age = 250; //age should be 150 or above
 
     const result = retirementCalculator(age);
     expect(result).toBe("You should be dead. Big time.");
@@ -33,7 +33,6 @@ test('Geeft retirementCalculator een melding terug als je al met pensioen zou mo
     expect(result).toBe("You should be retired already!");
 });
 
-//TEST WERKT NOG NIET GOED!
 test('Geeft retirementCalculator een melding terug als je een verkeerde waarde meegeeft?', function () {
     let a;
     const age = a;
@@ -42,7 +41,7 @@ test('Geeft retirementCalculator een melding terug als je een verkeerde waarde m
     expect(result).toBe("age is commonly written in numbers. Try again");
 });
 
-test('Geeft retirementCalculator een melding terug als je een tekst meegeeft?', function () {
+test('Geeft retirementCalculator een melding terug als je een tekst ipv nummer meegeeft?', function () {
     const age = "ik ben 30 jaar oud";
 
     const result = retirementCalculator(age);
