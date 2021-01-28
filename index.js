@@ -1,3 +1,4 @@
+//exports
 module.exports = {
     retirementCalculator : retirementCalculator,
     basicCalculator : basicCalculator,
@@ -13,11 +14,6 @@ function basicCalculator(/*parameter(s) might be required*/) {
 }
 
 
-//exports
-module.exports = {
-    retirementCalculator : retirementCalculator,
-    basicCalculator : basicCalculator,
-};
 
 
 
